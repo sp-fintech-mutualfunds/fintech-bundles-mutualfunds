@@ -13,16 +13,14 @@
 			"version" : "0.0.0-rc.8",
 			"repo" : "https://github.com/sp-framework/core"
 		},
-		"apptype" : [],
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
 		"components" : [],
-		"packages" : 
-		[
-			{
-				"name" : "Test",
-				"version" : "0.8.0",
-				"repo" : "https://github.com/sp-fintech/fintech-packages-tools-test"
-			}
-		],
+		"packages" : [],
 		"middlewares" : [],
 		"views" : [],
 		"bundles" : 
@@ -32,21 +30,6 @@
 				"version" : "0.7.0",
 				"repo" : "https://github.com/sp-fintech/fintech-bundles-base"
 			}
-		],
-		"external" : 
-		{
-			"composer" : 
-			{
-				"require" : []
-			},
-			"config" : 
-			{
-				"allow-plugins" : []
-			},
-			"extra" : 
-			{
-				"patches" : []
-			}
-		}
+		]
 	}
 }
