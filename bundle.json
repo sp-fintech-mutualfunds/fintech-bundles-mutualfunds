@@ -4,7 +4,7 @@
 	"module_type" : "bundles",
 	"app_type" : "fintech",
 	"repo" : "https://github.com/sp-fintech/fintech-bundles-mutualfunds",
-	"version" : "0.1.0",
+	"version" : "0.2.0",
 	"bundle_modules" : 
 	{
 		"core" : 
@@ -19,10 +19,31 @@
 			"version" : "0.3.0",
 			"repo" : "https://github.com/sp-fintech/fintech"
 		},
-		"components" : [],
-		"packages" : [],
+		"components" : 
+		[
+			{
+				"name" : "MFExtractdata",
+				"version" : "0.2.0",
+				"repo" : "https://github.com/sp-fintech/fintech-components-mutualfunds-mfextractdata"
+			}
+		],
+		"packages" : 
+		[
+			{
+				"name" : "MfExtractdata",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-packages-mutualfunds-mfextractdata"
+			}
+		],
 		"middlewares" : [],
-		"views" : [],
+		"views" : 
+		[
+			{
+				"name" : "MfExtractdata",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech/fintech-views-mutualfunds-default-mfextractdata"
+			}
+		],
 		"bundles" : 
 		[
 			{
