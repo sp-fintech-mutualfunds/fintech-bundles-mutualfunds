@@ -1,16 +1,16 @@
 {
 	"name" : "MutualFunds",
-	"description" : "<p>MF Bundle</p>",
+	"description" : "<p>Mutual Fund Bundle</p>",
 	"module_type" : "bundles",
 	"app_type" : "fintech",
-	"repo" : "https://github.com/sp-fintech/fintech-bundles-mutualfunds",
+	"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-bundles-mutualfunds",
 	"version" : "0.2.0",
 	"bundle_modules" : 
 	{
 		"core" : 
 		{
 			"name" : "Core",
-			"version" : "0.0.0-rc.8",
+			"version" : "0.0.0-rc.12",
 			"repo" : "https://github.com/sp-framework/core"
 		},
 		"apptype" : 
@@ -22,33 +22,123 @@
 		"components" : 
 		[
 			{
-				"name" : "MFExtractdata",
+				"name" : "Mutual Fund Amcs",
 				"version" : "0.2.0",
-				"repo" : "https://github.com/sp-fintech/fintech-components-mutualfunds-mfextractdata"
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-components-mutualfunds-mfamcs"
+			},
+			
+			{
+				"name" : "Mutual Fund Categories",
+				"version" : "0.3.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-components-mutualfunds-mfcategories"
+			},
+			
+			{
+				"name" : "Mutual Fund Extractdata",
+				"version" : "0.10.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-components-mutualfunds-mfextractdata"
+			},
+			
+			{
+				"name" : "Mutual Fund Schemes",
+				"version" : "0.3.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-components-mutualfunds-mfschemes"
+			},
+			
+			{
+				"name" : "Mutual Fund Transactions",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-components-mutualfunds-mftransactions"
 			}
 		],
 		"packages" : 
 		[
 			{
+				"name" : "MfAmcs",
+				"version" : "0.4.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mfamcs"
+			},
+			
+			{
+				"name" : "MfCategories",
+				"version" : "0.3.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mfcategories"
+			},
+			
+			{
 				"name" : "MfExtractdata",
+				"version" : "0.29.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mfextractdata"
+			},
+			
+			{
+				"name" : "MfNavs",
+				"version" : "0.2.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mfnavs"
+			},
+			
+			{
+				"name" : "MfPortfolios",
 				"version" : "0.0.0",
-				"repo" : "https://github.com/sp-fintech/fintech-packages-mutualfunds-mfextractdata"
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mfportfolios"
+			},
+			
+			{
+				"name" : "MfSchemes",
+				"version" : "0.4.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mfschemes"
+			},
+			
+			{
+				"name" : "MfTransactions",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mftransactions"
+			},
+			
+			{
+				"name" : "ApisProvidersKuvera",
+				"version" : "0.2.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-appsapis-apisproviderskuvera"
 			}
 		],
 		"middlewares" : [],
 		"views" : 
 		[
 			{
-				"name" : "MfExtractdata",
+				"name" : "MfAmcs",
 				"version" : "0.1.0",
-				"repo" : "https://github.com/sp-fintech/fintech-views-mutualfunds-default-mfextractdata"
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-views-mutualfunds-default-mfamcs"
+			},
+			
+			{
+				"name" : "MfCategories",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-views-mutualfunds-default-mfcategories"
+			},
+			
+			{
+				"name" : "MfExtractdata",
+				"version" : "0.6.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-views-mutualfunds-default-mfextractdata"
+			},
+			
+			{
+				"name" : "MfTransactions",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-views-mutualfunds-default-mftransactions"
+			},
+			
+			{
+				"name" : "SystemApiClientServicesApisProvidersKuvera",
+				"version" : "0.3.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-views-mutualfunds-default-systemapiclientservicesapisproviderskuvera"
 			}
 		],
 		"bundles" : 
 		[
 			{
 				"name" : "Base",
-				"version" : "0.7.0",
+				"version" : "0.13.0",
 				"repo" : "https://github.com/sp-fintech/fintech-bundles-base"
 			}
 		]
