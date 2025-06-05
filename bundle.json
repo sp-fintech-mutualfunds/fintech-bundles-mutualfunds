@@ -4,7 +4,7 @@
 	"module_type" : "bundles",
 	"app_type" : "fintech",
 	"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-bundles-mutualfunds",
-	"version" : "0.3.0",
+	"version" : "0.4.0",
 	"bundle_modules" : 
 	{
 		"core" : 
@@ -46,9 +46,9 @@
 			},
 			
 			{
-				"name" : "Mutual Fund Transactions",
-				"version" : "0.1.0",
-				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-components-mutualfunds-mftransactions"
+				"name" : "Mutual Fund Portfolios",
+				"version" : "0.7.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-components-mutualfunds-mfportfolios"
 			}
 		],
 		"packages" : 
@@ -99,6 +99,12 @@
 				"name" : "ApisProvidersKuvera",
 				"version" : "0.2.0",
 				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-appsapis-apisproviderskuvera"
+			},
+			
+			{
+				"name" : "MfStrategies",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-packages-mutualfunds-mfstrategies"
 			}
 		],
 		"middlewares" : [],
@@ -123,12 +129,6 @@
 			},
 			
 			{
-				"name" : "MfTransactions",
-				"version" : "0.0.0",
-				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-views-mutualfunds-default-mftransactions"
-			},
-			
-			{
 				"name" : "SystemApiClientServicesApisProvidersKuvera",
 				"version" : "0.3.0",
 				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-views-mutualfunds-default-systemapiclientservicesapisproviderskuvera"
@@ -138,6 +138,12 @@
 				"name" : "MfSchemes",
 				"version" : "0.6.0",
 				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-views-mutualfunds-default-mfschemes"
+			},
+			
+			{
+				"name" : "MfPortfolios",
+				"version" : "0.6.2",
+				"repo" : "https://github.com/sp-fintech-mutualfunds/fintech-views-mutualfunds-default-mfportfolios"
 			}
 		],
 		"bundles" : 
